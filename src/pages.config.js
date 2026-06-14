@@ -17,7 +17,8 @@
  *       "HomePage": HomePage,
  *       "Dashboard": Dashboard,
  *       "Settings": Settings,
- *   }
+ *       "Login": Login,
+}
  *   
  *   export const pagesConfig = {
  *       mainPage: "HomePage",
@@ -29,11 +30,13 @@
  *   import Home from './pages/Home';
  *   import Settings from './pages/Settings';
  *   import __Layout from './Layout.jsx';
+import Login from './pages/Login';
  *
  *   export const PAGES = {
  *       "Home": Home,
  *       "Settings": Settings,
- *   }
+ *       "Login": Login,
+}
  *
  *   export const pagesConfig = {
  *       mainPage: "Home",
@@ -88,6 +91,7 @@ import SocialCircles from './pages/SocialCircles';
 import VoiceLogging from './pages/VoiceLogging';
 import Welcome from './pages/Welcome';
 import __Layout from './Layout.jsx';
+import Login from './pages/Login';
 
 
 export const PAGES = {
@@ -131,6 +135,7 @@ export const PAGES = {
     "SocialCircles": SocialCircles,
     "VoiceLogging": VoiceLogging,
     "Welcome": Welcome,
+    "Login": Login,
 }
 
 export const pagesConfig = {
